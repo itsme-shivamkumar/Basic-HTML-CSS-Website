@@ -1,0 +1,176 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+
+header{
+    position: relative;
+    display: inline;
+    top: 1px;
+    left: 20px;
+    text-align: center;
+    padding: 0px;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+    
+    
+}
+
+
+.myCursor {
+    display: inline-block;
+    width: 10px;
+    height: 1rem;
+    background: #e27e26;
+    margin-left: 5px;
+    border-radius: 1px;
+/*    -webkit-animation: myCursor 1s infinite;
+    animation: myCursor 1s infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: myCursor;  */
+}
+
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+z-index: -1px;
+max-width: 100%;
+
+}
+
+.banner .welcome{
+    position: absolute;
+    bottom: 120px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #292a2d;
+    left: 35%;
+    
+    font-size: 40px;
+}
+
+nav{
+    display: absolute;
+    position: sticky;
+    top:0px;
+    width:100%;
+    white-space: nowrap;
+    background-color:#292a2d;
+    padding: 1px;
+    max-width: 100%;
+    margin: 0 0;
+
+}
+nav ul li{
+    width: 20%;
+    font-size: 20px;
+    display: inline-block;
+}
+
+main article{
+    margin: 5px 10px;
+    font-size: 18px;
+}
+
+main article h3{
+    font-size: 25px;
+}
+
+.main-nav ul li a{
+
+    text-decoration: none;
+    color:white;
+}
+
+.main-nav ul li a:hover{
+
+    text-decoration: underline;
+    font-weight: bold;
+    color:white;
+}
+
+
+.social-accounts li{
+    background-color: white;
+}
+
+.social-accounts{
+    white-space: nowrap;
+}
+
+.social-accounts li{
+    display: inline-block;
+}
+
+
+.social-accounts li img{
+    height:100px;
+    margin:0 20px;
+    margin-left: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.social-accounts h3{
+    padding: 30px;
+    word-spacing: 155px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+
+
+footer{
+    text-decoration: underline;
+    display: inline-block;
+    text-align: center;
+    padding-right:10px;
+    padding-left: 10px;
+    margin: 0 40%;
+    border-radius: 8px;
+    background-color: #292a2d;
+}
+
+.bg-all img{
+    width: 100%;
+    opacity: 70%;
+}
+
+.bg-all div img{
+    width:20%;
+    opacity: 100%;
+    position: relative;
+    bottom: 1200px;
+    left: 200px;
+}
+
+.bg-all div h1{
+    position: relative;
+    width: 30%;
+    bottom: 1400px;
+    left: 500px;
+    font-size: 3em;
+}
+
+
+
+/*@media screen and (max-width:960px) {
+
+}
+@media screen and (max-width:660px) {
+
+}
