@@ -77,9 +77,13 @@ nav{
 }
 nav ul li{
     width: 20%;
+    left: 0;
+    right: 10px;
     font-size: 20px;
     display: inline-block;
 }
+
+
 
 main article{
     margin: 5px 10px;
@@ -106,6 +110,10 @@ main article h3{
 
 .social-accounts li{
     background-color: white;
+}
+
+.social-accounts h2{
+    margin-left: 20px;
 }
 
 .social-accounts{
@@ -168,9 +176,76 @@ footer{
 
 
 
-/*@media screen and (max-width:960px) {
+@media screen and (max-width:1150px) {
+        .banner .welcome{
+            position: absolute;
+            bottom: 70px;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: #292a2d;
+            left: 35%;
+            
+            font-size: 32px;
+        }
 
+        .social-accounts li img{
+            height:80px;
+            margin:0 20px;
+            margin-left: 25px;
+            padding: 10px;
+            text-decoration: none;
+        }
 }
-@media screen and (max-width:660px) {
 
+@media screen and (max-width:1000px) {
+    .social-accounts li img{
+        height:65px;
+        margin:0 20px;
+        margin-left: 25px;
+        padding: 10px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .banner .welcome{
+        position: absolute;
+        bottom: 40px;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #292a2d;
+        left: 35%;
+        
+        font-size: 20px;
+    }
+    .social-accounts li img{
+        height:35px;
+        margin:0 20px;
+        margin-left: 25px;
+        padding: 10px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .banner .welcome{
+        position: absolute;
+        bottom: 25px;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #292a2d;
+        left: 30%;
+        
+        font-size: 12px;
+    }
+    .social-accounts li img{
+        height:25px;
+        margin:0 2px;
+        margin-left: 25px;
+        padding: 2px;
+        text-decoration: none;
+    }
 }
