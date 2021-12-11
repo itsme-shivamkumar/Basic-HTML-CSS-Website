@@ -195,13 +195,15 @@ form{
 
 input[type="name"]{
   font-size: 15px;
-  color: #222;
+  color: grey;
+  background: #222;
 }
 
 select{
   padding: 05px;
   font-size: 15px;
-  color: #222;
+  color: grey;
+  background-color: #222;
   font-weight: lighter;
 }
 
